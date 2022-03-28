@@ -1,0 +1,27 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  background: #2f2626;
+
+
+  li {
+
+    list-style: none;
+    //width: 100%;
+    padding: 1em;
+    text-align: center;
+    &:hover {
+      cursor: grab;
+      background: #5b5454;
+    }
+  }
+  a {
+    color:white;
+    font-weight: bold;
+
+    text-decoration: none;
+
+  }
+}
